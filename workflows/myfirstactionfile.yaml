@@ -1,0 +1,8 @@
+name: my first action file
+on: [push, workflow_dispatch]
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greet Message
+        run: echo "Congratulations!!! your workflow successfilly done"
